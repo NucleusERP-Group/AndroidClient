@@ -37,7 +37,7 @@ import android.webkit.WebChromeClient;
 public class WebViewActivity extends AppCompatActivity {
     private WebView web;
     //Replace This URL With Your Web Based Application URL
-    String webUrl = "http://172.16.4.58/n/";
+    String webUrl = "http://http://your_app_address/";
 
     public Context context;
 
@@ -110,14 +110,14 @@ public class WebViewActivity extends AppCompatActivity {
         else {
             //When Internet Connectivity Is Active
             //Load Url In WebView also replace with your own url
-            web.loadUrl("http://172.16.4.58/n/");
+            web.loadUrl("http://your_app_address/");
         }
 
 
         //Improve Web View Performance
         web.getSettings().setLoadsImagesAutomatically(true);
         web.getSettings().setRenderPriority(WebSettings.RenderPriority.HIGH);
-        //web.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
+        //web.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK); --> Fix To ERR_TOO_MANY_REDIRECTS
         web.getSettings().setAppCacheEnabled(true);
         web.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
         mywebsettings.setDomStorageEnabled(true);
