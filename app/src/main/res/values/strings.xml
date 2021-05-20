@@ -3,9 +3,7 @@
     <string name="powered_by">Powered By MartDevelopers Inc</string>
     <string name="android_client">Android Client</string>
     <string name="title_activity_web_view">FullscreenActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="image_chooser">Choose Image</string>
-    <string name="no_internet_connection_found_n_please_check_your_connection" />
-    <string name="try_again" />
+    <string name="no_internet">No Internet Connection Detected, Please Make Sure You Have Internet Connection</string>
+    <string name="try_again" >Try Again</string>
 </resources>
