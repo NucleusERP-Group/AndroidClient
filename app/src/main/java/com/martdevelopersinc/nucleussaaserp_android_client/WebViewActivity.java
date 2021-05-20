@@ -109,7 +109,6 @@ public class WebViewActivity extends AppCompatActivity {
         }
         else {
             //When Internet Connectivity Is Active
-
             //Load Url In WebView also replace with your own url
             web.loadUrl("http://172.16.4.58/n/");
         }
@@ -118,7 +117,7 @@ public class WebViewActivity extends AppCompatActivity {
         //Improve Web View Performance
         web.getSettings().setLoadsImagesAutomatically(true);
         web.getSettings().setRenderPriority(WebSettings.RenderPriority.HIGH);
-        web.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
+        //web.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         web.getSettings().setAppCacheEnabled(true);
         web.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
         mywebsettings.setDomStorageEnabled(true);
