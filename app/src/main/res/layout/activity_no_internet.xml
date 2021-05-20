@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="80dp"
+    android:background="@drawable/bg_round">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/no_internet"
+        />
+
+    <TextView
+        android:id="@+id/no_connection"
+        android:layout_width="286dp"
+        android:layout_height="81dp"
+        android:fontFamily="@font/heartwarming"
+        android:gravity="center"
+        android:text="@string/no_internet_connection_found_n_please_check_your_connection"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/bt_try_again"
+        android:layout_width="133dp"
+        android:layout_height="65dp"
+        android:fontFamily="@font/sportsjersey"
+        android:gravity="center"
+        android:text="@string/try_again"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
