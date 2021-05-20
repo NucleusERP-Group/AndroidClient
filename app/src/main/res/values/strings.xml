@@ -5,5 +5,5 @@
     <string name="title_activity_web_view">FullscreenActivity</string>
     <string name="image_chooser">Choose Image</string>
     <string name="no_internet">No Internet Connection Detected, Please Make Sure You Have Internet Connection</string>
-    <string name="try_again" >Try Again</string>
+    <string name="try_again">Try Again</string>
 </resources>
