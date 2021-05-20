@@ -1,4 +1,4 @@
-intpackage com.martdevelopersinc.nucleussaaserp_android_client;
+package com.martdevelopersinc.nucleussaaserp_android_client;
 
 import androidx.appcompat.app.AppCompatActivity;
 
