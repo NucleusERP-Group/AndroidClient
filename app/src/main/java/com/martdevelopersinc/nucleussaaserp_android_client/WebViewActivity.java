@@ -1,41 +1,43 @@
 package com.martdevelopersinc.nucleussaaserp_android_client;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.Context;
-import android.content.Intent;
+import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.os.Bundle;
+import android.view.View;
+import android.view.WindowManager;
+import android.webkit.WebSettings;
+import  android.webkit.WebView;
+import android.webkit.WebViewClient;
+
+//Import File Upload In Android
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
-import android.os.Bundle;
 import android.os.Environment;
 import android.os.Parcelable;
 import android.provider.MediaStore;
 import android.util.Log;
-import android.view.View;
-import android.view.WindowManager;
 import android.webkit.ValueCallback;
-import android.webkit.WebChromeClient;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.Toast;
-
 import java.io.File;
 import java.io.IOException;
+import android.webkit.WebChromeClient;
+
 
 public class WebViewActivity extends AppCompatActivity {
-
     private WebView web;
     //Replace This URL With Your Web Based Application URL
-    String webUrl = "http://172.16.4.58/n/";
+    String webUrl = "https://wcf.co.ke/";
 
     public Context context;
 
@@ -109,7 +111,7 @@ public class WebViewActivity extends AppCompatActivity {
             //When Internet Connectivity Is Active
 
             //Load Url In WebView also replace with your own url
-            web.loadUrl("http://172.16.4.58/n/");
+            web.loadUrl("https://wcf.co.ke/");
         }
 
 
@@ -323,5 +325,4 @@ public class WebViewActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
-
 }
