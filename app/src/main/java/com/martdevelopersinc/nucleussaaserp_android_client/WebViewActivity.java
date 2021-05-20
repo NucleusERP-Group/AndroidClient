@@ -37,7 +37,7 @@ import android.webkit.WebChromeClient;
 public class WebViewActivity extends AppCompatActivity {
     private WebView web;
     //Replace This URL With Your Web Based Application URL
-    String webUrl = "https://wcf.co.ke/";
+    String webUrl = "http://172.16.4.58/n/";
 
     public Context context;
 
@@ -55,7 +55,7 @@ public class WebViewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_web_view);
 
         web = (WebView) findViewById(R.id.NucleusSaaSWebView);
         web.loadUrl(webUrl);
@@ -111,7 +111,7 @@ public class WebViewActivity extends AppCompatActivity {
             //When Internet Connectivity Is Active
 
             //Load Url In WebView also replace with your own url
-            web.loadUrl("https://wcf.co.ke/");
+            web.loadUrl("http://172.16.4.58/n/");
         }
 
 
