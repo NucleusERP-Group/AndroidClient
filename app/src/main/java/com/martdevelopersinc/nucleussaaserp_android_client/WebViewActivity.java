@@ -37,7 +37,7 @@ import android.webkit.WebChromeClient;
 public class WebViewActivity extends AppCompatActivity {
     private WebView web;
     //Replace This URL With Your Web Based Application URL
-    String webUrl = "http://http://your_app_address/";
+    String webUrl = "http://your_app_address/";
 
     public Context context;
 

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "992035686124",
+    "project_id": "nucleussaaserp-androidclient",
+    "storage_bucket": "nucleussaaserp-androidclient.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992035686124:android:79910611cd6e1a6c73c7c9",
+        "android_client_info": {
+          "package_name": "com.martdevelopersinc.nucleussaaserp_android_client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992035686124-mbtm9q004tsc2bgdb0ikfjkevmb5vqi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0UHnIMDAhT-966Xnf9txNz7Yhm4JGxzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992035686124-mbtm9q004tsc2bgdb0ikfjkevmb5vqi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
