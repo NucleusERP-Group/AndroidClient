@@ -10,17 +10,25 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 @SuppressWarnings("deprecation")
 public class MainActivity extends AppCompatActivity {
 
     private ImageView logo;
     private static int splashTimeOut=7000;
 
+    //Load Google Analytics
+    private FirebaseAnalytics NucleusSaaS_ERP_AndroidClient;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         logo=(ImageView)findViewById(R.id.logo);
+
+        // Obtain the FirebaseAnalytics instance.
+        NucleusSaaS_ERP_AndroidClient = FirebaseAnalytics.getInstance(this);
 
         new Handler().postDelayed(new Runnable() {
             @Override
