@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/obitron"
         android:text="@string/android_client"
-        android:textColor="@color/android_client"
+        android:textColor="@color/white"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

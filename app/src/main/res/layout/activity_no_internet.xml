@@ -30,8 +30,6 @@
         android:textStyle="bold" />
 
 
-
-
     <Button
         android:id="@+id/bt_try_again"
         android:layout_width="150dp"
@@ -39,10 +37,12 @@
         android:layout_marginTop="40dp"
         android:fontFamily="@font/obitron"
         android:gravity="center"
+        android:rotationX="-2"
         android:text="@string/try_again"
         android:textAllCaps="false"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:typeface="normal" />
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
